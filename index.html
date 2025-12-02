@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Линус Торвальдс </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="img/linux-svgrepo-com.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <header>
+        <h1> Линус Торвальдс </h1>
+        <img src="img/linux-svgrepo-com.svg" alt="логотип" width="50px">
+        <nav>
+            <ul>
+                <li><a href="#about" style="color: rgb(207, 207, 207);">Введение</a></li>
+                <li><a href="#articles" style="color: rgb(207, 207, 207);">Информация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Введение</h2>
+
+            <figure>
+                <img src="img/linusTorwalds.png" alt="Линус Торвальдс" width="300px">
+                <figcaption>Линус Торвальдс</figcaption>
+            </figure>
+            <p>Опубликовано: <time datetime="2025-10-29"> 29 октября 2025 </time></p>
+            <p>Ли́нус Бенедикт То́рвальдс — финно‑американский программист. Создатель ядра Linux.</p>
+            <p>В 1991 году, будучи студентом, он начал разрабатывать ядро операционной системы как хобби. Опубликовав
+                исходный код под открытой лицензией, он позволил тысячам программистов со всего мира присоединиться к
+                проекту. Благодаря этому Linux стал основой для миллионов серверов, суперкомпьютеров и устройств
+                Android. Позже Торвальдс создал Git — ныне главный инструмент разработчиков для контроля версий. Сегодня
+                он продолжает руководить развитием ядра, оставаясь одной из самых влиятельных фигур в IT‑индустрии.</p>
+
+            <blockquote>
+                <q>Привет всем! Я делаю свободную операционную систему (это только хобби; она не станет большой и
+                    профессиональной...).</q>
+                <cite><a href="https://en.wikipedia.org/wiki/Linux_kernel#History" target="_blank">сообщение Торвальдса,
+                        1991 г.</a></cite>
+            </blockquote>
+        </section>
+        <section id="articles">
+            <h2>Информация</h2>
+
+            <ol>
+                <li><a href="article1.html" style="color: rgb(139, 0, 0);">Биография</a></li>
+                <li><a href="article2.html" style="color: rgb(139, 0, 0);">Основные достижения</a></li>
+                <li><a href="article3.html" style="color: rgb(139, 0, 0);">Интересные факты</a></li>
+                <li><a href="article4.html" style="color: rgb(139, 0, 0);">Список терминов</a></li>
+                <!-- <li><a href="table-form.html" style="color: rgb(55, 150, 0);">Табилицы и формы</a></li> -->
+            </ol>
+        </section>
+        <h2>Обратная связь</h2>
+        <div class="contact_us">
+            <form action="">
+                <div class="form__item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв</option>
+                        <option value="3">Другое</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <label for="name">Имя</label><br>
+                    <input type="text" name="name" id="name" placeholder="Введите ваше имя" required="">
+                </div>
+
+                <div class="form__item">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Введите ваш email" required="">
+                </div>
+
+                <div class="form__item">
+                    <label for="text">Текст сообщения</label><br>
+                    <textarea name="text" id="text" rows="10" cols="65" placeholder="Напишите сообщение"
+                        required=""></textarea>
+                </div>
+
+                <div class="form">
+                    <label; a href="table-form.html"> </a>>
+                        <input type="checkbox" name="languages" value="HTML">
+                        согласие с политикой конфиденциальности
+                    </label>
+                </div>
+
+                <div class="form__item">
+                    <input type="submit" id="submit">
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; <a href="https://t.me/lixvwll" target="_blank"
+                style="color: inherit; text-decoration: underline;">Глушков Данил</a>, 2025</p>
+        <p> <a href="tel:+7-995-307-13-62" style="color: rgb(139, 0, 0);">+7 (995)-307-13-62</a></p>
+
+        <p> <a href="mailto:GlushkOFF@gmail.com" style="color: rgb(139, 0, 0);">GlushkOFF@gmail.com</a></p>
+
+        <div class="sources">
+            <a href="https://ru.wikipedia.org/wiki/Linux" target="_blank"><img src="img/linux-svgrepo-com.svg"
+                    alt="Wikipedia" width="20"></a>
+            <a href="https://git-scm.com/about" target="_blank"><img src="img/gitlogo.png" alt="Git" width="20"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

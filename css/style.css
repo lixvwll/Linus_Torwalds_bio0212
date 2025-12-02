@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sources {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 40px;
+}
+
+
+.sources img,
+.sources svg {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+
+.sources img:hover,
+.sources svg:hover {
+    transform: scale(1.2);
+}
+
+html {
+
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 40px;
+}
+
+#about {
+    background-color: rgb(230, 230, 230);
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#articles {
+    padding: 20px 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 5px;
+}
+
+q {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 1em;
+}
+
+/* #kernel p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 1em;
+}
+#early p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 1em;
+} */
+
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sources img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#toc {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    color: black;
+}
+
+#toc h3 {
+    text-align: center;
+    width: 1em;
+}
+
+#toc a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#toc a:hover {
+    color: rgb(255, 196, 0);
+    text-decoration: underline;
+}
+
+#toc a:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+/* li {
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+} */
+
+time {
+    font-weight: bold;
+    color: rgb(139, 0, 0)
+}
+
+/* urok po tablicam */
+
+.my-table {
+    border: solid 10px rgb(255, 196, 0);
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.my-table td,
+.my-table th {
+    border: solid 2px black;
+    padding: 10px 15px;
+}
+
+cite a:hover {
+    color: rgb(255, 196, 0);
+    text-decoration: underline;
+}
+
+.contact_us {
+    list-style: none;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
